@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Overpass", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: 15px;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.hide {
+    display: none;
+}
+
+#rating-card {
+    background-color: hsl(213, 19%, 18%);
+    width: 415px;
+    border-radius: 15px;
+}
+
+.star-img {
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.rate-btn {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    border: none;
+    padding: 10px 18px;
+}
+
+.rate-btn:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.select-msg {
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+}
+
+.selected {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+
+.submit-btn {
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.submit-btn:hover {
+    background-color: hsl(0, 0%, 100%);
+}
